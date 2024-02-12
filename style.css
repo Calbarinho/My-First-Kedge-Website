@@ -1,0 +1,94 @@
+/* Header Styles */
+header {
+    background-color: #333; /* Dark gray background color */
+    padding: 10px; /* Reduced padding for a more compact header */
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center;
+}
+
+/* Logo Styles */
+.logo {
+    display: none; /* Hide the logo */
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px; /* Add spacing between navigation items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* White text color for better contrast */
+    font-weight: bold; /* Make the font bold for emphasis */
+    font-size: 55px; /* Increase font size */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover for a subtle effect */
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px; /* Add margin to create space below the footer */
+}
+
+.footer-content {
+    margin-bottom: 10px; /* Add margin to separate the content from the button */
+}
+
+.dark-mode-toggle {
+    margin-bottom: 10px; /* Add margin to separate the button from the footer */
+}
+
+.dark-mode-toggle button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 24px; /* Increase padding for better visibility */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block; /* Ensure the button is displayed as an inline block */
+}
+
+.dark-mode-toggle button:hover {
+    background-color: #222; /* Darken background color on hover */
+}
+.dark-mode {
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+.dark-mode footer {
+    background-color: #111; /* Darker background color for the footer */
+}
+
+.produit {
+    display: inline-block;
+    width: 20%; 
+    margin: 0 2%; 
+    text-align: center;
+}
+
+.banner {
+    background-color: #f0f0f0; 
+    color: #333; 
+    padding: 10px; 
+    text-align: center; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+}
