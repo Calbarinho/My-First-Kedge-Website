@@ -1,11 +1,14 @@
 <head>
   <meta charset="UTF-8">
-  <title>Le Bon Coin - Accueil</title>
+  <title>L'étudiant en retard - Accueil</title>
   <link rel="stylesheet" href="style.css">
   <style>
     body {
       font-family: Colibri, sans-serif;
+      margin: 0; 
+      padding: 0; 
     }
+     
   </style>
 </head>
 <body>
@@ -20,45 +23,55 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#produits">Le Bon Coin</a></li>
+                <li><a href="#produits">L'étudiant en retard</a></li>
             </ul>
         </nav>
     </header>
 
 
-    <section id="hero">
-        <h1>Bienvenue sur Le Bon Coin</h1>
-        <p>Vente d'organes humains, armes, esclaves, faux papiers,...</p>
-        <a href="#produits" class="cta">Découvrir nos produits</a>
-    </section>
+<section id="hero">
+    <h1>Bienvenue sur notre site officiel</h1>
+    <p>Vente d'outils de travail, cours, conseils en ligne, documents,... Pour les étudiants qui ont du mal à suivre leurs cours, nous leur proposons des options jusqu'à la terminale.
+    Dans la limite des professeurs disponibles</p>
+    <p>Pour toute autre information, merci de vous diriger sur le site internet de l'éducation nationale</p>
+    <a href="https://www.education.gouv.fr/" class="cta">Cliquez juste ici</a>
+</section>
+
+<style>
+    .cta {
+        margin-bottom: 40px; 
+        display: inline-block; 
+    }
+</style>
+
 
    <style>
     .produit img {
-        max-width: 200px; /* Adjust the maximum width as needed */
-        max-height: 200px; /* Adjust the maximum height as needed */
+        max-width: 200px; 
+        max-height: 200px; 
     }
 </style>
 
 <section id="produits">
     <div class="produit">
         <img src="images/paris.jpg" alt="Fromage 1">
-        <h3>Organes humains</h3>
-        <p>Si t'en as besoin, c'est chaud pour toi frère</p> <!-- Additional text -->
+        <h3>Outils de travail</h3>
+        <p>Cahiers, stylos, feuilles à petits ou grands carreaux, calculatrices, ordinateurs, trousses et cartables en tout genre</p> <!-- Additional text -->
     </div>
     <div class="produit">
         <img src="images/london.jpg" alt="Fromage 2">
-        <h3>Armes</h3>
-        <p>'Et au tiequar j'avais mon 7-62' - Gradur</p> <!-- Additional text -->
+        <h3>Cours</h3>
+        <p>Cours de rattrapages pour toutes les matières de la 6ème à la Terminale</p> <!-- Additional text -->
     </div>
     <div class="produit">
-        <img src="images/paris.jpg" alt="Fromage 3">
-        <h3>Faux papiers</h3>
-        <p>Tu fuis qui chef ?</p> <!-- Additional text -->
+        <img src="images/background.jpg" alt="Fromage 3">
+        <h3>Conseils en Ligne</h3>
+        <p>Orientation professionelle ou pour la spécialité</p> <!-- Additional text -->
     </div>
     <div class="produit">
-        <img src="images/london.jpg" alt="Fromage 2">
-        <h3>Esclaves</h3>
-        <p>Marre de la CGT ?</p> <!-- Additional text -->
+        <img src="images/shanghai.jpg" alt="Fromage 2">
+        <h3>Documents</h3>
+        <p>Tous les documents administratifs nécessaires pour ne pas s'inquiéter inutilement</p> <!-- Additional text -->
     </div>
 </section>
 
@@ -66,10 +79,10 @@
 
 <footer>
     <div class="footer-content">
-        <p>&copy; 2024 Le Bon Coin. Tous droits réservés.</p>
+        <p>&copy; 2024 L'étudiant en retard. Tous droits réservés.</p>
     </div>
     <div class="dark-mode-toggle">
-        <button onclick="toggleDarkMode()">Mode Bresom</button>
+        <button onclick="toggleDarkMode()">Mode Sombre</button>
     </div>
 </footer>
 
